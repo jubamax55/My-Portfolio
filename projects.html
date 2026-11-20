@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — Noushad Jubayer Tafif</title>
+  <meta name="description" content="Projects built by Noushad Jubayer Tafif.">
+  <meta name="theme-color" content="#030712">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,500;1,600;1,700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="projects-page-theme">
+
+  <header class="navbar scrolled" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-text">Noushad</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav class="nav-links" id="navMenu">
+        <a href="index.html"       class="nav-link">Home</a>
+        <a href="about.html"       class="nav-link">About</a>
+        <a href="expert.html"      class="nav-link">Expert</a>
+        <a href="projects.html"    class="nav-link active">Projects</a>
+        <a href="footprints.html"  class="nav-link">Footprints</a>
+        <a href="contact.html"     class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="projects-section-white">
+      <div class="container">
+
+        <!-- Projects Header -->
+        <div class="projects-hero-header">
+          <div class="projects-eyebrow-pill">
+            <span class="pill-dot"></span> FEATURED CASE STUDIES &amp; SYSTEMS
+          </div>
+          <h1 class="projects-hero-title">Featured <span class="gradient-text">Projects</span></h1>
+          <p class="projects-hero-subtitle">
+            A showcase of software systems, web applications, and interactive digital solutions engineered with clean architecture, modern APIs, and responsive design.
+          </p>
+        </div>
+
+        <!-- Interactive Category Filter Bar -->
+        <div class="projects-filter-bar" id="projectsFilterBar">
+          <button class="proj-filter-btn active" data-filter="all">
+            <i class="fa-solid fa-layer-group"></i> All Projects <span class="filter-count">6</span>
+          </button>
+          <button class="proj-filter-btn" data-filter="systems">
+            <i class="fa-solid fa-server"></i> Full-Stack &amp; Systems <span class="filter-count">2</span>
+          </button>
+          <button class="proj-filter-btn" data-filter="web">
+            <i class="fa-solid fa-globe"></i> Web Applications <span class="filter-count">2</span>
+          </button>
+          <button class="proj-filter-btn" data-filter="games">
+            <i class="fa-solid fa-gamepad"></i> Interactive &amp; Games <span class="filter-count">1</span>
+          </button>
+          <button class="proj-filter-btn" data-filter="java">
+            <i class="fa-brands fa-java"></i> Java &amp; Backend <span class="filter-count">1</span>
+          </button>
+        </div>
+
+        <div class="projects-timeline-wrap" id="projectsTimeline">
+          <!-- Central Vertical Spine Line -->
+          <div class="timeline-spine-line" aria-hidden="true"></div>
+
+          <!-- ════════════════════════════════════════════════════════
+               1. HEALTHCARE MANAGEMENT SYSTEM (Row 1: Card Right, Pill Left)
+               ════════════════════════════════════════════════════════ -->
+          <div class="timeline-project-row row-card-right" data-category="systems">
+            <!-- Left: Category Pill Badge -->
+            <div class="timeline-badge-col">
+              <div class="timeline-category-pill">
+                <span>Full-Stack System</span>
+              </div>
+            </div>
+
+            <!-- Center: Spine Node Dot with Radar Ripple Animation -->
+            <div class="timeline-node-col">
+              <span class="dot-ripple-wave" aria-hidden="true"></span>
+              <span class="timeline-center-dot"></span>
+            </div>
+
+            <!-- Right: Project Card -->
+            <div class="timeline-card-col">
+              <article class="timeline-project-card card-healthcare">
+                <div class="tcard-inner-grid">
+                  <!-- Left: Body & Tags -->
+                  <div class="tcard-body">
+                    <div>
+                      <h3 class="tcard-title">Healthcare Management System</h3>
+                      <p class="tcard-subtitle">Hospital administration &amp; clinical database platform</p>
+                      <p class="tcard-desc">
+                        A comprehensive hospital administration system featuring centralized patient records, physician scheduling, and conflict-safe appointment booking with relational SQL integrity.
+                      </p>
+                    </div>
+                    <div class="tcard-tags-grid">
+                      <span class="tcard-tag">HTML5</span>
+                      <span class="tcard-tag">CSS3</span>
+                      <span class="tcard-tag">JAVASCRIPT</span>
+                      <span class="tcard-tag">SQL DATABASE</span>
+                    </div>
+                  </div>
+
+                  <!-- Right: Slate Frame with Cover Image & Stacked Buttons -->
+                  <div class="tcard-slate-frame">
+                    <div class="tcard-preview-window">
+                      <img src="project-healthcare.jpg" alt="Healthcare Management System" class="tcard-photo-img" loading="lazy">
+                    </div>
+                    <div class="tcard-actions-stack">
+                      <a href="https://github.com/jubamax55" target="_blank" rel="noopener noreferrer" class="tbtn-live">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> View Live
+                      </a>
+                      <a href="https://github.com/jubamax55" target="_blank" rel="noopener noreferrer" class="tbtn-github">
+                        <i class="fa-brands fa-github"></i> GitHub
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- ════════════════════════════════════════════════════════
+               2. WEATHER APP (Row 2: Card Left, Pill Right)
+               ════════════════════════════════════════════════════════ -->
+          <div class="timeline-project-row row-card-left" data-category="web">
+            <!-- Left: Project Card -->
+            <div class="timeline-card-col">
+              <article class="timeline-project-card card-weather">
+                <div class="tcard-inner-grid">
+                  <!-- Left: Body & Tags -->
+                  <div class="tcard-body">
+                    <div>
+                      <h3 class="tcard-title">Weather App</h3>
+                      <p class="tcard-subtitle">Real-time atmospheric lookup platform with live weather forecasts</p>
+                      <p class="tcard-desc">
+                        Integrates OpenWeatherMap REST API with dynamic JSON parsing, location search, temperature conversions, and responsive visual state updates reflecting regional conditions.
+                      </p>
+                    </div>
+                    <div class="tcard-tags-grid">
+                      <span class="tcard-tag">HTML5</span>
+                      <span class="tcard-tag">CSS3</span>
+                      <span class="tcard-tag">JAVASCRIPT</span>
+                      <span class="tcard-tag">REST API</span>
+                    </div>
+                  </div>
+
+                  <!-- Right: Slate Frame with Cover Image & Stacked Buttons -->
+                  <div class="tcard-slate-frame">
+                    <div class="tcard-preview-window">
+                      <img src="project-weather.jpg" alt="Weather Forecast Platform" class="tcard-photo-img" loading="lazy">
+                    </div>
+                    <div class="tcard-actions-stack">
+                      <a href="https://github.com/jubamax55" target="_blank" rel="noopener noreferrer" class="tbtn-live">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> View Live
+                      </a>
+                      <a href="https://github.com/jubamax55" target="_blank" rel="noopener noreferrer" class="tbtn-github">
+                        <i class="fa-brands fa-github"></i> GitHub
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Center: Spine Node Dot with Radar Ripple Animation -->
+            <div class="timeline-node-col">
+              <span class="dot-ripple-wave" aria-hidden="true"></span>
+              <span class="timeline-center-dot"></span>
+            </div>
+
+            <!-- Right: Category Pill Badge -->
+            <div class="timeline-badge-col">
+              <div class="timeline-category-pill">
+                <span>Real-Time Web App</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ════════════════════════════════════════════════════════
+               3. SMART CALCULATOR (Row 3: Card Right, Pill Left)
+               ════════════════════════════════════════════════════════ -->
+          <div class="timeline-project-row row-card-right" data-category="systems">
+            <!-- Left: Category Pill Badge -->
+            <div class="timeline-badge-col">
+              <div class="timeline-category-pill">
+                <span>Algorithmic Engine</span>
+              </div>
+            </div>
+
+            <!-- Center: Spine Node Dot with Radar Ripple Animation -->
+            <div class="timeline-node-col">
+              <span class="dot-ripple-wave" aria-hidden="true"></span>
+              <span class="timeline-center-dot"></span>
+            </div>
+
+            <!-- Right: Project Card -->
+            <div class="timeline-card-col">
+              <article class="timeline-project-card card-calc">
+                <div class="tcard-inner-grid">
+                  <!-- Left: Body & Tags -->
+                  <div class="tcard-body">
+                    <div>
+                      <h3 class="tcard-title">Smart Calculator</h3>
+                      <p class="tcard-subtitle">High-precision arithmetic evaluation engine with tactile feedback</p>
+                      <p class="tcard-desc">
+                        High-precision mathematical evaluation engine featuring keyboard event listener integration, precedence parsing, zero-division trapping, and responsive tactile keypad animations.
+                      </p>
+                    </div>
+                    <div class="tcard-tags-grid">
+                      <span class="tcard-tag">HTML5</span>
+                      <span class="tcard-tag">CSS3</span>
+                      <span class="tcard-tag">JAVASCRIPT</span>
+                      <span class="tcard-tag">ALGORITHM</span>
+                    </div>
+                  </div>
+
+                  <!-- Right: Slate Frame with Cover Image & Stacked Buttons -->
+                  <div class="tcard-slate-frame">
+                    <div class="tcard-preview-window">
+                      <img src="project-calculator.jpg" alt="Smart Calculator & Algorithm Engine" class="tcard-photo-img" loading="lazy">
+                    </div>
+                    <div class="tcard-actions-stack">
+                      <a href="https://github.com/jubamax55" target="_blank" rel="noopener noreferrer" class="tbtn-live">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> View Live
+                      </a>
+                      <a href="https://github.com/jubamax55" target="_blank" rel="noopener noreferrer" class="tbtn-github">
+                        <i class="fa-brands fa-github"></i> GitHub
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- ════════════════════════════════════════════════════════
+               4. NUMBER GUESSING GAME (Row 4: Card Left, Pill Right)
+               ════════════════════════════════════════════════════════ -->
+          <div class="timeline-project-row row-card-left" data-category="games">
+            <!-- Left: Project Card -->
+            <div class="timeline-card-col">
+              <article class="timeline-project-card card-game">
+                <div class="tcard-inner-grid">
+                  <!-- Left: Body & Tags -->
+                  <div class="tcard-body">
+                    <div>
+                      <h3 class="tcard-title">Number Guessing Game</h3>
+                      <p class="tcard-subtitle">Browser-based interactive number guessing arcade with dynamic clues</p>
+                      <p class="tcard-desc">
+                        Cyberpunk-themed arcade engine with pseudo-random seed generation, dynamic clue proximity algorithms (Cold/Warm/Super Close), life hearts counter, score tracking, and celebrations.
+                      </p>
+                    </div>
+                    <div class="tcard-tags-grid">
+                      <span class="tcard-tag">HTML5</span>
+                      <span class="tcard-tag">CSS3</span>
+                      <span class="tcard-tag">JAVASCRIPT</span>
+                      <span class="tcard-tag">GAME LOGIC</span>
+                    </div>
+                  </div>
+
+                  <!-- Right: Slate Frame with Cover Image & Stacked Buttons -->
+                  <div class="tcard-slate-frame">
+                    <div class="tcard-preview-window">
+                      <img src="project-arcade.jpg" alt="Number Guessing Arcade Game" class="tcard-photo-img" loading="lazy">
+                    </div>
+                    <div class="tcard-actions-stack">
+                      <a href="https://github.com/jubamax55" target="_blank" rel="noopener noreferrer" class="tbtn-live">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> View Live
+                      </a>
+                      <a href="https://github.com/jubamax55" target="_blank" rel="noopener noreferrer" class="tbtn-github">
+                        <i class="fa-brands fa-github"></i> GitHub
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Center: Spine Node Dot with Radar Ripple Animation -->
+            <div class="timeline-node-col">
+              <span class="dot-ripple-wave" aria-hidden="true"></span>
+              <span class="timeline-center-dot"></span>
+            </div>
+
+            <!-- Right: Category Pill Badge -->
+            <div class="timeline-badge-col">
+              <div class="timeline-category-pill">
+                <span>Interactive Arcade</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ════════════════════════════════════════════════════════
+               5. MY PORTFOLIO WEBSITE (Row 5: Card Right, Pill Left - Replicating Reference Screenshot)
+               ════════════════════════════════════════════════════════ -->
+          <div class="timeline-project-row row-card-right" data-category="web">
+            <!-- Left: Category Pill Badge -->
+            <div class="timeline-badge-col">
+              <div class="timeline-category-pill">
+                <span>My Portfolio Website</span>
+              </div>
+            </div>
+
+            <!-- Center: Spine Node Dot with Radar Ripple Animation -->
+            <div class="timeline-node-col">
+              <span class="dot-ripple-wave" aria-hidden="true"></span>
+              <span class="timeline-center-dot"></span>
+            </div>
+
+            <!-- Right: Project Card (Features Noushad's photo Profile.jpg) -->
+            <div class="timeline-card-col">
+              <article class="timeline-project-card card-portfolio">
+                <div class="tcard-inner-grid">
+                  <!-- Left: Body & Tags -->
+                  <div class="tcard-body">
+                    <div>
+                      <h3 class="tcard-title">My Portfolio Website</h3>
+                      <p class="tcard-subtitle">A modern, interactive portfolio website built with vanilla HTML, CSS and JavaScript.</p>
+                      <p class="tcard-desc">
+                        This is my personal portfolio website, designed to showcase my skills, software systems, and engineering projects with clean architecture, fluid animations, and high performance.
+                      </p>
+                    </div>
+                    <div class="tcard-tags-grid">
+                      <span class="tcard-tag">HTML5</span>
+                      <span class="tcard-tag">CSS3</span>
+                      <span class="tcard-tag">JAVASCRIPT</span>
+                      <span class="tcard-tag">BENTO UI</span>
+                    </div>
+                  </div>
+
+                  <!-- Right: Slate Frame with Profile Photo & Stacked Buttons -->
+                  <div class="tcard-slate-frame">
+                    <div class="tcard-preview-window">
+                      <img src="Profile.jpg" alt="Noushad Jubayer Tafif - Portfolio Showcase" class="tcard-photo-img photo-profile">
+                    </div>
+                    <div class="tcard-actions-stack">
+                      <a href="index.html" class="tbtn-live">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> View Live
+                      </a>
+                      <a href="https://github.com/jubamax55" target="_blank" rel="noopener noreferrer" class="tbtn-github">
+                        <i class="fa-brands fa-github"></i> GitHub
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- ════════════════════════════════════════════════════════
+               6. JAVA OOP PROJECT — Coming Soon (Row 6: Card Left, Pill Right)
+               ════════════════════════════════════════════════════════ -->
+          <div class="timeline-project-row row-card-left" data-category="java">
+            <!-- Left: Project Card -->
+            <div class="timeline-card-col">
+              <article class="timeline-project-card card-java-oop">
+                <div class="tcard-inner-grid">
+                  <!-- Left: Body & Tags -->
+                  <div class="tcard-body">
+                    <div>
+                      <h3 class="tcard-title">Java OOP Project <span style="font-size:12px;font-weight:600;background:#fef9c3;color:#854d0e;border:1px solid #fde047;border-radius:20px;padding:2px 10px;vertical-align:middle;margin-left:6px;">In Progress</span></h3>
+                      <p class="tcard-subtitle">A Java object-oriented programming project currently under development</p>
+                      <p class="tcard-desc">
+                        This project is being built using core Java with OOP principles — classes, inheritance, encapsulation and polymorphism. Details and a live demo will be added when it is ready.
+                      </p>
+                    </div>
+                    <div class="tcard-tags-grid">
+                      <span class="tcard-tag">JAVA</span>
+                      <span class="tcard-tag">OOP</span>
+                      <span class="tcard-tag">DATA STRUCTURES</span>
+                    </div>
+                  </div>
+
+                  <!-- Right: Slate Frame — no buttons, coming soon state -->
+                  <div class="tcard-slate-frame">
+                    <div class="tcard-preview-window" style="display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#1e1b4b 0%,#312e81 100%);min-height:120px;">
+                      <div style="text-align:center;color:rgba(255,255,255,0.7);">
+                        <i class="fa-brands fa-java" style="font-size:48px;color:#f59e0b;filter:drop-shadow(0 2px 8px rgba(245,158,11,0.4));display:block;margin-bottom:8px;"></i>
+                        <span style="font-size:12px;letter-spacing:0.08em;font-family:var(--font-mono,monospace);">COMING SOON</span>
+                      </div>
+                    </div>
+                    <!-- No View Live / GitHub buttons intentionally -->
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Center: Spine Node Dot -->
+            <div class="timeline-node-col">
+              <span class="dot-ripple-wave" aria-hidden="true"></span>
+              <span class="timeline-center-dot"></span>
+            </div>
+
+            <!-- Right: Category Pill Badge -->
+            <div class="timeline-badge-col">
+              <div class="timeline-category-pill">
+                <span>Java &amp; Backend</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ════════════════════════════════════════════════════════
+               HOW TO ADD A NEW PROJECT
+               Copy one of the blocks above and change:
+                 • data-category="all|systems|web|games|java"
+                 • row-card-left ↔ row-card-right  (alternate each project)
+                 • tcard-title, tcard-subtitle, tcard-desc
+                 • tcard-tags (add/remove <span class="tcard-tag"> as needed)
+                 • tcard-preview-window > <img src="YOUR-IMAGE.jpg">
+                 • tbtn-live href and tbtn-github href
+               Also update the filter-count numbers in the filter bar above.
+               ════════════════════════════════════════════════════════ -->
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-grid-3col">
+
+        <!-- Column 1: Brand -->
+        <div class="footer-brand-col">
+          <div class="footer-brand-name">Noushad Jubayer Tafif</div>
+          <p class="footer-tagline-modern">
+            Software Engineering student passionate about building practical software solutions, frontend interfaces, and AI-integrated products.
+          </p>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div>
+          <div class="footer-col-header">QUICK LINKS</div>
+          <div class="footer-quicklinks-grid">
+            <a href="index.html" class="footer-modern-link">Home</a>
+            <a href="about.html" class="footer-modern-link">About</a>
+            <a href="expert.html" class="footer-modern-link">Expert</a>
+            <a href="projects.html" class="footer-modern-link">Projects</a>
+            <a href="footprints.html" class="footer-modern-link">Footprints</a>
+            <a href="contact.html" class="footer-modern-link">Contact</a>
+          </div>
+        </div>
+
+        <!-- Column 3: Get In Touch -->
+        <div>
+          <div class="footer-col-header">GET IN TOUCH</div>
+          <div class="footer-contact-list">
+            <a href="mailto:jubamax55@gmail.com" class="footer-contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <span>jubamax55@gmail.com</span>
+            </a>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Dhaka, Bangladesh</span>
+            </div>
+          </div>
+
+          <div class="footer-socials-box">
+            <a href="https://www.linkedin.com/in/noushad-jubayer-tafif-a48422415/" target="_blank" rel="noopener noreferrer" class="footer-icon-pill" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/jubamax55" target="_blank" rel="noopener" class="footer-icon-pill" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://wa.me/8801612424050" target="_blank" rel="noopener noreferrer" class="footer-icon-pill" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://t.me/+8801612424050" target="_blank" rel="noopener noreferrer" class="footer-icon-pill" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+            <a href="https://www.facebook.com/nowshad.zubayer" target="_blank" rel="noopener" class="footer-icon-pill" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="mailto:jubamax55@gmail.com" class="footer-icon-pill" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom-centered">
+        <p>&copy; 2026 Noushad Jubayer Tafif. All rights reserved.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <button id="scrollTopBtn" aria-label="Scroll to top"><i class="fa-solid fa-arrow-up"></i></button>
+  <script>
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => { navbar.classList.toggle('scrolled', window.scrollY > 40); }, { passive: true });
+    const menuToggle = document.getElementById('menuToggle');
+    const navMenu    = document.getElementById('navMenu');
+    if (menuToggle && navMenu) {
+      menuToggle.addEventListener('click', () => {
+        const isOpen = navMenu.classList.toggle('open');
+        menuToggle.setAttribute('aria-expanded', isOpen);
+        menuToggle.innerHTML = isOpen ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+      });
+    }
+    const scrollBtn = document.getElementById('scrollTopBtn');
+    if (scrollBtn) {
+      window.addEventListener('scroll', () => { scrollBtn.classList.toggle('visible', window.scrollY > 300); }, { passive: true });
+      scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    }
+
+    // Interactive Project Category Filter
+    const filterBtns = document.querySelectorAll('.proj-filter-btn');
+    const timelineRows = document.querySelectorAll('.timeline-project-row');
+    if (filterBtns.length > 0 && timelineRows.length > 0) {
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const filter = btn.getAttribute('data-filter');
+          filterBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          timelineRows.forEach(row => {
+            const cat = row.getAttribute('data-category');
+            if (filter === 'all' || cat === filter) {
+              row.classList.remove('is-hidden');
+            } else {
+              row.classList.add('is-hidden');
+            }
+          });
+        });
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noushad Jubayer Tafif | Software Engineering Student</title>
+  <meta name="description"
+    content="Portfolio of Noushad Jubayer Tafif — Software Engineering Student & Aspiring Full-Stack / Java Developer at Daffodil International University.">
+  <meta name="theme-color" content="#030712">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,500;1,600;1,700&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preload" as="image" href="Profile.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body class="intro-active">
+
+  <!-- ══════════════════════════════════════════════
+       PORTFOLIO INTRO SCREEN (ECG HEARTBEAT LOADER)
+  ══════════════════════════════════════════════ -->
+  <div class="portfolio-intro-screen" id="portfolioIntro" aria-hidden="true">
+    <div class="intro-ecg-container">
+      <!-- Gradient Heartbeat / Pulse Waveform -->
+      <svg class="intro-ecg-svg" viewBox="0 0 160 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="ecgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#00f2fe" />
+            <stop offset="35%" stop-color="#6366f1" />
+            <stop offset="70%" stop-color="#a855f7" />
+            <stop offset="100%" stop-color="#fb923c" />
+          </linearGradient>
+        </defs>
+        <path class="intro-ecg-path" stroke="url(#ecgGradient)"
+          d="M 0 25 L 55 25 L 67 14 L 77 38 L 89 5 L 103 25 L 160 25" />
+      </svg>
+      <!-- Name -->
+      <h2 class="intro-ecg-name">Noushad Jubayer Tafif</h2>
+      <!-- Status -->
+      <p class="intro-ecg-status">Loading Portfolio</p>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════════════ -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+
+      <a href="index.html" class="nav-logo">
+        <span class="logo-text">Noushad</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="nav-links" id="navMenu">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="expert.html" class="nav-link">Expert</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="footprints.html" class="nav-link">Footprints</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- ══════════════════════════════════════════════
+         HERO SECTION (MORSAD REPLICA)
+    ══════════════════════════════════════════════ -->
+    <section class="hero-section" id="home">
+
+      <!-- Portrait image container on right (max-w-5xl, flex justify-end) -->
+      <div class="hero-photo-wrap" aria-hidden="true">
+        <div class="hero-photo-inner">
+          <img src="Profile.jpg" alt="Noushad Jubayer Tafif - Software Engineering Student" class="hero-photo-img"
+            loading="eager">
+          <!-- Overlay 1: bottom-to-top dark fade -->
+          <div class="hero-photo-fade-v"></div>
+          <!-- Overlay 2: right-to-left dark fade -->
+          <div class="hero-photo-fade-h"></div>
+        </div>
+      </div>
+
+      <!-- Main editorial content on left (matching Morsad layout & typography) -->
+      <div class="hero-content-wrap">
+
+        <!-- Big Headline Name (Syne 800 - Elongated, Tall & Spaced) -->
+        <h1 class="hero-name-block">
+          <span class="hero-name-line">NOUSHAD</span>
+          <span class="hero-name-line">JUBAYER</span>
+          <span class="hero-name-line">TAFIF</span>
+        </h1>
+
+        <!-- Meta cluster: Subtitle, Quote with Divider, Socials, Resume -->
+        <div class="hero-meta-cluster">
+
+          <!-- Italic Serif Subtitle -->
+          <div class="hero-editorial-subtitle">
+            Software Engineering Student
+          </div>
+
+          <!-- Quote & Underline Divider -->
+          <div class="hero-quote-box">
+            <p class="hero-quote-text">"BUILDING PRACTICAL SOFTWARE &amp; FUTURE TECH SOLUTIONS"</p>
+            <div class="hero-quote-divider"></div>
+          </div>
+
+          <!-- Subtle Monochrome Social Icons -->
+          <div class="hero-socials-row">
+            <a href="https://www.linkedin.com/in/noushad-jubayer-tafif/" target="_blank" rel="noopener"
+              aria-label="LinkedIn" class="hero-social-link">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/jubamax55" target="_blank" rel="noopener" aria-label="GitHub"
+              class="hero-social-link">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="mailto:jubamax55@gmail.com" aria-label="Email" class="hero-social-link">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://www.facebook.com/nowshad.zubayer" target="_blank" rel="noopener" aria-label="Facebook"
+              class="hero-social-link">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </div>
+
+          <!-- View Resume: Boxed Icon + Letter-spaced Label -->
+          <div class="hero-resume-action">
+            <a href="Noushad_Jubayer_Tafif_CV.pdf" target="_blank" rel="noopener" class="hero-resume-btn">
+              <span class="hero-resume-icon-box">
+                <i class="fa-regular fa-file-lines"></i>
+              </span>
+              <span class="hero-resume-text">View Resume</span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+
+    <!-- ══════════════════════════════════════════════
+         SECTION DIVIDER (White Band)
+    ══════════════════════════════════════════════ -->
+    <div class="hero-white-divider" aria-hidden="true"></div>
+
+
+    <!-- ══════════════════════════════════════════════
+         CERTIFICATES & ACHIEVEMENTS (2nd Section)
+    ══════════════════════════════════════════════ -->
+    <section class="section certificates-section" id="certificates">
+      <div class="container">
+
+        <div class="section-eyebrow">Learning &amp; Growth</div>
+        <h2 class="section-title-xl">Certificates &amp; <span class="gradient-text">Achievements</span></h2>
+
+        <div class="empty-glass">
+          <div class="empty-icon"><i class="fa-solid fa-award"></i></div>
+          <div class="empty-title">More achievements coming soon</div>
+          <p class="empty-text">This section is ready for certificates, competition results, workshops, academic awards,
+            and professional milestones as my journey continues to grow.</p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════
+         PROJECTS (HOMEPAGE SHOWCASE)
+    ══════════════════════════════════════════════ -->
+    <section class="homepage-projects-section" id="projects">
+      <div class="container">
+
+        <!-- Projects Header matching morsad.techmisify.com -->
+        <div class="homepage-projects-header">
+          <h2 class="hprojects-title">Projects</h2>
+          <div class="hprojects-title-bar"></div>
+          <p class="hprojects-subtitle">Explore my latest projects and creative solutions</p>
+        </div>
+
+        <!-- 3-Column Projects Grid -->
+        <div class="homepage-projects-grid">
+
+          <!-- 1. Healthcare Management System -->
+          <article class="homepage-project-card">
+            <div class="hcard-preview-box">
+              <img src="project-healthcare.jpg" alt="Healthcare Management System - Clinical Dashboard" class="hcard-photo-img" loading="lazy">
+            </div>
+
+            <div class="hcard-body">
+              <h3 class="hcard-title">Healthcare Management System</h3>
+              <p class="hcard-desc">
+                A complete hospital administration and clinical management system featuring centralized patient records, physician scheduling, and conflict-safe appointment booking with relational SQL integrity.
+              </p>
+              <div class="hcard-tags">
+                <span class="hcard-tag">HTML5</span>
+                <span class="hcard-tag">CSS3</span>
+                <span class="hcard-tag">JAVASCRIPT</span>
+                <span class="hcard-tag">SQL DATABASE</span>
+              </div>
+            </div>
+
+            <div class="hcard-actions">
+              <a href="https://github.com/jubamax55" target="_blank" rel="noopener noreferrer" class="hbtn-live">
+                View Live <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a href="https://github.com/jubamax55" target="_blank" rel="noopener noreferrer" class="hbtn-github" aria-label="GitHub Repository">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- 2. Weather App -->
+          <article class="homepage-project-card">
+            <div class="hcard-preview-box">
+              <img src="project-weather.jpg" alt="Weather Forecast Platform" class="hcard-photo-img" loading="lazy">
+            </div>
+
+            <div class="hcard-body">
+              <h3 class="hcard-title">Weather App</h3>
+              <p class="hcard-desc">
+                Real-time atmospheric lookup platform integrating OpenWeatherMap REST API with dynamic JSON parsing, location search, temperature conversions, and responsive visual state updates.
+              </p>
+              <div class="hcard-tags">
+                <span class="hcard-tag">HTML5</span>
+                <span class="hcard-tag">CSS3</span>
+                <span class="hcard-tag">JAVASCRIPT</span>
+                <span class="hcard-tag">REST API</span>
+              </div>
+            </div>
+
+            <div class="hcard-actions">
+              <a href="https://github.com/jubamax55" target="_blank" rel="noopener noreferrer" class="hbtn-live">
+                View Live <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a href="https://github.com/jubamax55" target="_blank" rel="noopener noreferrer" class="hbtn-github" aria-label="GitHub Repository">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- 3. Smart Calculator -->
+          <article class="homepage-project-card">
+            <div class="hcard-preview-box">
+              <img src="project-calculator.jpg" alt="Smart Calculator & Algorithm Engine" class="hcard-photo-img" loading="lazy">
+            </div>
+
+            <div class="hcard-body">
+              <h3 class="hcard-title">Smart Calculator</h3>
+              <p class="hcard-desc">
+                High-precision arithmetic evaluation engine featuring keyboard event listener integration, precedence parsing, error handling for division by zero, and responsive tactile keypad animations.
+              </p>
+              <div class="hcard-tags">
+                <span class="hcard-tag">HTML5</span>
+                <span class="hcard-tag">CSS3</span>
+                <span class="hcard-tag">JAVASCRIPT</span>
+                <span class="hcard-tag">ALGORITHM</span>
+              </div>
+            </div>
+
+            <div class="hcard-actions">
+              <a href="https://github.com/jubamax55" target="_blank" rel="noopener noreferrer" class="hbtn-live">
+                View Live <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a href="https://github.com/jubamax55" target="_blank" rel="noopener noreferrer" class="hbtn-github" aria-label="GitHub Repository">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- 4. Number Guessing Game -->
+          <article class="homepage-project-card">
+            <div class="hcard-preview-box">
+              <img src="project-arcade.jpg" alt="Number Guessing Arcade Game" class="hcard-photo-img" loading="lazy">
+            </div>
+
+            <div class="hcard-body">
+              <h3 class="hcard-title">Number Guessing Game</h3>
+              <p class="hcard-desc">
+                Browser-based interactive number guessing arcade featuring pseudo-random seed generation, dynamic clue proximity algorithms (Cold/Warm/Super Close), life counter, score tracking, and celebrations.
+              </p>
+              <div class="hcard-tags">
+                <span class="hcard-tag">HTML5</span>
+                <span class="hcard-tag">CSS3</span>
+                <span class="hcard-tag">JAVASCRIPT</span>
+                <span class="hcard-tag">GAME LOGIC</span>
+              </div>
+            </div>
+
+            <div class="hcard-actions">
+              <a href="https://github.com/jubamax55" target="_blank" rel="noopener noreferrer" class="hbtn-live">
+                View Live <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a href="https://github.com/jubamax55" target="_blank" rel="noopener noreferrer" class="hbtn-github" aria-label="GitHub Repository">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- 5. My Portfolio Website (Features Noushad's Suit Photo - matching Screenshot 2) -->
+          <article class="homepage-project-card">
+            <div class="hcard-preview-box">
+              <img src="Profile.jpg" alt="Noushad Jubayer Tafif - Portfolio Showcase" class="hcard-photo-img photo-profile">
+            </div>
+
+            <div class="hcard-body">
+              <h3 class="hcard-title">My Portfolio Website</h3>
+              <p class="hcard-desc">
+                A modern, interactive personal portfolio website designed to showcase my skills, software systems, and engineering projects with clean architecture, fluid animations, and high performance.
+              </p>
+              <div class="hcard-tags">
+                <span class="hcard-tag">HTML5</span>
+                <span class="hcard-tag">CSS3</span>
+                <span class="hcard-tag">JAVASCRIPT</span>
+                <span class="hcard-tag">BENTO UI</span>
+              </div>
+            </div>
+
+            <div class="hcard-actions">
+              <a href="#home" class="hbtn-live">
+                View Live <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a href="https://github.com/jubamax55" target="_blank" rel="noopener noreferrer" class="hbtn-github" aria-label="GitHub Repository">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Centered "VIEW ALL PROJECTS" Red Button matching Screenshot 2 -->
+        <div class="hprojects-cta-wrap">
+          <a href="projects.html" class="btn-view-all-projects">
+            VIEW ALL PROJECTS <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ══════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-grid-3col">
+
+        <!-- Column 1: Brand -->
+        <div class="footer-brand-col">
+          <div class="footer-brand-name">Noushad Jubayer Tafif</div>
+          <p class="footer-tagline-modern">
+            Software Engineering student passionate about building practical software solutions, frontend interfaces,
+            and AI-integrated products.
+          </p>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div>
+          <div class="footer-col-header">QUICK LINKS</div>
+          <div class="footer-quicklinks-grid">
+            <a href="index.html" class="footer-modern-link">Home</a>
+            <a href="about.html" class="footer-modern-link">About</a>
+            <a href="expert.html" class="footer-modern-link">Expert</a>
+            <a href="projects.html" class="footer-modern-link">Projects</a>
+            <a href="footprints.html" class="footer-modern-link">Footprints</a>
+            <a href="contact.html" class="footer-modern-link">Contact</a>
+          </div>
+        </div>
+
+        <!-- Column 3: Get In Touch -->
+        <div>
+          <div class="footer-col-header">GET IN TOUCH</div>
+          <div class="footer-contact-list">
+            <a href="mailto:jubamax55@gmail.com" class="footer-contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <span>jubamax55@gmail.com</span>
+            </a>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Dhaka, Bangladesh</span>
+            </div>
+          </div>
+
+          <div class="footer-socials-box">
+            <a href="https://www.linkedin.com/in/noushad-jubayer-tafif-a48422415/" target="_blank"
+              rel="noopener noreferrer" class="footer-icon-pill" aria-label="LinkedIn"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/jubamax55" target="_blank" rel="noopener" class="footer-icon-pill"
+              aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://wa.me/8801612424050" target="_blank" rel="noopener noreferrer" class="footer-icon-pill"
+              aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://t.me/+8801612424050" target="_blank" rel="noopener noreferrer" class="footer-icon-pill"
+              aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+            <a href="https://www.facebook.com/nowshad.zubayer" target="_blank" rel="noopener" class="footer-icon-pill"
+              aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="mailto:jubamax55@gmail.com" class="footer-icon-pill" aria-label="Email"><i
+                class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom-centered">
+        <p>&copy; 2026 Noushad Jubayer Tafif. All rights reserved.</p>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- Scroll to top -->
+  <button id="scrollTopBtn" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+  <script>
+    // ── 2-Second ECG Heartbeat Intro Animation ───
+    (function initPortfolioIntro() {
+      const introScreen = document.getElementById('portfolioIntro');
+      if (!introScreen) return;
+
+      const totalDuration = 2000; // Exact 2.0 seconds
+      setTimeout(() => {
+        introScreen.classList.add('hide');
+        document.body.classList.remove('intro-active');
+
+        setTimeout(() => {
+          introScreen.style.display = 'none';
+        }, 600);
+      }, totalDuration);
+    })();
+
+    // ── Navbar scroll effect ─────────────────────
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 40);
+    }, { passive: true });
+
+    // ── Mobile menu toggle ───────────────────────
+    const menuToggle = document.getElementById('menuToggle');
+    const navMenu = document.getElementById('navMenu');
+    if (menuToggle && navMenu) {
+      menuToggle.addEventListener('click', () => {
+        const isOpen = navMenu.classList.toggle('open');
+        menuToggle.setAttribute('aria-expanded', isOpen);
+        menuToggle.innerHTML = isOpen
+          ? '<i class="fa-solid fa-xmark"></i>'
+          : '<i class="fa-solid fa-bars"></i>';
+      });
+      navMenu.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          navMenu.classList.remove('open');
+          menuToggle.setAttribute('aria-expanded', 'false');
+          menuToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+        });
+      });
+    }
+
+    // ── Scroll to top button ─────────────────────
+    const scrollBtn = document.getElementById('scrollTopBtn');
+    if (scrollBtn) {
+      window.addEventListener('scroll', () => {
+        scrollBtn.classList.toggle('visible', window.scrollY > 500);
+      }, { passive: true });
+      scrollBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+
+    // ── Cursor glow spotlight effect ─────────────
+    document.addEventListener('mousemove', e => {
+      const x = (e.clientX / window.innerWidth) * 100;
+      const y = (e.clientY / window.innerHeight) * 100;
+      document.documentElement.style.setProperty('--cursor-x', `${x}%`);
+      document.documentElement.style.setProperty('--cursor-y', `${y}%`);
+    });
+  </script>
+
+</body>
+
+</html>
